@@ -89,7 +89,7 @@ export default function Home() {
   function content(){
 
     if(currentAccount===""){
-      showConnectWallet()
+      return showConnectWallet()
     }
     else{
       return(
